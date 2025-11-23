@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Getting Started with BMAD Method for Claude Code"
+title: "Getting Started"
 description: "Complete installation guide and first steps for BMAD Method in Claude Code. Learn how to install, configure, and run your first BMAD workflow."
 keywords: "BMAD installation, Claude Code setup, agile development setup, BMAD getting started"
 ---

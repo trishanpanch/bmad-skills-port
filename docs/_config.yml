@@ -25,6 +25,13 @@ markdown: kramdown
 theme: minima
 highlighter: rouge
 
+# Header navigation - limit pages shown in navbar
+header_pages:
+  - getting-started.md
+  - skills/index.md
+  - commands/index.md
+  - examples/index.md
+
 # Plugins
 plugins:
   - jekyll-seo-tag

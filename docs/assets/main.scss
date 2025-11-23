@@ -3,6 +3,86 @@
 
 @import "minima";
 
+// Custom Navbar Styling
+.site-header {
+  border-top: 3px solid #667eea;
+  border-bottom: 1px solid #e8e8e8;
+  background: #fdfdfd;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.site-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  .page-link {
+    color: #333;
+    font-size: 0.95em;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: #f0f0f0;
+      color: #0066cc;
+      text-decoration: none;
+    }
+  }
+
+  // Mobile menu improvements
+  @media screen and (max-width: 600px) {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+
+    .menu-icon {
+      > svg path {
+        fill: #333;
+      }
+    }
+
+    .trigger {
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+      .page-link {
+        display: block;
+        padding: 10px 15px;
+        margin: 0;
+        border-bottom: 1px solid #f0f0f0;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+// Ensure navbar links don't overflow
+.site-nav .trigger {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
 // Hero Section Styling
 .hero-section {
   text-align: center;

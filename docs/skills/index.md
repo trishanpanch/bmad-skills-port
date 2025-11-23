@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "BMAD Skills Reference - AI Agents for Agile Development"
+title: "Skills"
 description: "Complete reference for all 9 BMAD skills (AI agents). Learn how each skill works and when to use them in your development workflow."
 keywords: "BMAD skills, Claude Code agents, AI development agents, business analyst AI, product manager AI, architect AI"
 ---
@@ -488,7 +488,7 @@ The System Architect designs the technical architecture based on requirements. T
 
 #### Example Usage
 
-```
+~~~~
 User: /architecture
 
 System Architect: I'll design the system architecture for your inventory management platform.
@@ -651,7 +651,7 @@ List all inventory with filtering.
 | Security | JWT + OAuth, encrypted secrets, audit logs |
 
 Saving architecture to: docs/architecture.md
-```
+~~~~
 
 #### Output
 A comprehensive architecture document including:
@@ -857,7 +857,7 @@ The Developer implements stories from the sprint plan. This skill writes clean, 
 
 #### Example Usage
 
-```
+~~~~
 User: /dev-story STORY-014
 
 Developer: I'll implement STORY-014: Product CRUD.
@@ -1077,7 +1077,7 @@ Updated: docs/stories/STORY-014.md
 Status: Complete
 
 Next: /dev-story STORY-015
-```
+~~~~
 
 #### When to Use
 - During implementation phase
