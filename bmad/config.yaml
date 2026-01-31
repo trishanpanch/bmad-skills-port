@@ -1,0 +1,23 @@
+# BMAD Method v6 - Project Configuration
+# Generated: 2026-01-30
+# Project: bmad-skills-port
+
+# BMAD Version
+bmad_version: "6.0.0"
+
+# Project Information
+project_name: "bmad-skills-port"
+project_type: "library"  # web-app, mobile-app, api, game, library, other
+project_level: 2  # 0-4 (Medium feature: 5-15 stories)
+
+# Output Configuration
+output_folder: "docs"
+stories_folder: "docs/stories"
+
+# Language Settings
+communication_language: "English"
+document_output_language: "English"
+
+# Project Metadata
+project_description: "Porting BMAD skills to Antigravity and Github"
+repository_url: "https://github.com/trishanpanch/bmad-skills-port"

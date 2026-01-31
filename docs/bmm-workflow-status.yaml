@@ -1,0 +1,37 @@
+# BMAD Workflow Status
+# Generated: 2026-01-30
+
+phases:
+  analysis:
+    status: current
+    workflows:
+      product-brief:
+        status: recommended
+        output: ""
+      research:
+        status: optional
+        output: ""
+
+  planning:
+    status: pending
+    workflows:
+      prd:
+        status: required
+        output: ""
+      tech-spec:
+        status: optional
+        output: ""
+
+  solutioning:
+    status: pending
+    workflows:
+      architecture:
+        status: required
+        output: ""
+
+  implementation:
+    status: pending
+    workflows:
+      sprint-planning:
+        status: required
+        output: ""
